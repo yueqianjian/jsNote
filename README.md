@@ -22,3 +22,5 @@ let有暂时性锁区，有块作用域。
 # 数组深拷贝和浅拷贝
 newArr = [...arr] 这种浅拷贝，遇到arr数组里面是对象，根本达不到预期的要求
 newArr = JSON.parse(JSON.stringify(arr)) 这种为深拷贝，即便是arr数组里为对象，newArr改变后，也不会对arr造成任何影响
+
+# test
